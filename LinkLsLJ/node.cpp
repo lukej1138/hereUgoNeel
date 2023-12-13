@@ -9,6 +9,7 @@ node::node(student* s){
 }
 
 node::~node(){
+  delete student;
   n = NULL;
 }
 
